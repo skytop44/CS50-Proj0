@@ -55,20 +55,28 @@ a:hover{
 }
 
 .container{
-    height: 90vh;
-    margin: 0;
+    width: 80%;
+    max-width: 600px;
+    height: 85vh;
+    max-height: 800px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .searchbar{
     text-align: center;
     align-content: center;
+    width: 100%;
+    max-width: 600px;
+    
     
 
 }
 .searchbar #bar{
-    width: 600px;
+    
+    width: 100%;
     border-radius: 24px;
     height: 40px;
     margin-bottom: 24px;
@@ -90,6 +98,7 @@ a:hover{
 form{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 form .btn{
     width: 150px;
@@ -102,4 +111,52 @@ form .btn{
 .btn:hover{
     border: solid 1px grey;
     
+}
+
+.form1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+
+.form-group{
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+
+}
+.form-group label{
+  width: 200px;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.form-group input{
+  flex: 1;
+  width: 60%;
+  margin: 5px;
+}
+
+.bar1:focus{
+  outline: none;
+  border-color: blue;
+  opacity: 0.5;
+}
+.buttons1{
+  display: flex;
+  max-width: 797px;
+  width: 100%;
+  justify-content: flex-end;
+
+}
+.btn1{
+  background-color: #1a73e8;
+  color: white;
+  border-radius: 4px;
+  outline: none;
+  border-color: #1a73e8;
+
 }
